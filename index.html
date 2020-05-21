@@ -52,11 +52,27 @@
 
     <script type="application/ld+json">
         {
-            "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4,9",
-            "reviewCount": "987"
-            }
+          "@context": "https://schema.org/",
+          "@type": "Review",
+          "itemReviewed": {
+            "@type": "Restaurant",
+            "image": "https://sandstrandseo.shop",
+            "name": "SandstrandSEO"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "name": "SandstrandSEO ist ein toller Ort.",
+          "author": {
+            "@type": "Person",
+            "name": "Harry Potter"
+          },
+          "reviewBody": "Die Produkte sind toll!",
+          "publisher": {
+            "@type": "Organization",
+            "name": "SEO-Praxis.de"
+          }
         }
         </script>
 
