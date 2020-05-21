@@ -1,3 +1,9 @@
+html{
+    font-size:100%;
+    width:100vw;
+    height: 100vh;
+    }
+
 body{
     margin-left: 7.5%;
     margin-right: 7.5%;
@@ -25,3 +31,10 @@ p,li{
     font-family: Open Sans Condensed;
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 800px){
+    h1{font-size:3rem;}
+    h2{font-size:2rem;}
+    h3{font-size:1.7rem;}
+    p,li{font-size: 1.7rem;}
+    }
