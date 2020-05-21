@@ -5,8 +5,8 @@ html{
     }
 
 body{
-    margin-left: 7.5%;
-    margin-right: 7.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     background-color: #fffcf5;
 
 }
@@ -30,6 +30,33 @@ h3 {
 p,li{
     font-family: Open Sans Condensed;
     font-size: 1.5rem;
+}
+
+.productpreview{
+    width: 95%;
+    height: auto;
+    background-color: #fee7b3;
+    padding: 0.5rem;
+}
+
+.product{
+    float:left;
+}
+.easybold{
+    font-weight: bold;
+}
+.productBold{
+    font-weight: bold;
+}
+.productDescription{
+    font-size: 1.4rem;
+}
+.productprize{
+    color: #bd8800;
+    text-align: left;
+}
+.line-on-top{
+    border-top: 3px
 }
 
 @media screen and (max-width: 800px){
