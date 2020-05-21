@@ -14,7 +14,14 @@ h2 {
     font-family: Caladea;
     font-size: 1.8rem;
 }
-p{
+h3 {
+    font-family: Caladea;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+p,li{
     font-family: Open Sans Condensed;
     font-size: 1.5rem;
 }
